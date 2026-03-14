@@ -23,3 +23,6 @@ def math(num1, operation, num2):
     else:
         return "Unsupported operation", 400
     return f"<h1>{num1} {operation} {num2} = {result}</h1>"
+
+if __name__ == '__main__':
+    app.run(port=5555, debug=True)
